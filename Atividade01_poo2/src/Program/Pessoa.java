@@ -11,7 +11,7 @@ public class Pessoa {
 		
 	}
 	
-	public Pessoa(String sobrenome, String nome, int cpf) {
+	public Pessoa(String nome,String sobrenome, int cpf) {
 		this.cpf = cpf;
 		this.nome = nome;
 		this.sobrenome = sobrenome;

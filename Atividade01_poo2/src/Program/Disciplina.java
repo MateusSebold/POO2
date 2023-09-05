@@ -2,18 +2,19 @@ package Program;
 
 public class Disciplina {
 	
-	protected Fase fase;
+	public Disciplina(int idDisciplina, String nome) {
+		this.idDisciplina = idDisciplina;
+		this.nome = nome;
+	}
 	
+	public Disciplina() {
+		
+	}
+
 	private int idDisciplina;
-
-	public Fase getFase() {
-		return fase;
-	}
-
-	public void setFase(Fase fase) {
-		this.fase = fase;
-	}
-
+	
+	private String nome;
+	
 	public int getIdDisciplina() {
 		return idDisciplina;
 	}
@@ -22,14 +23,25 @@ public class Disciplina {
 		this.idDisciplina = idDisciplina;
 	}
 
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
 	@Override
 	public String toString() {
 		StringBuilder builder = new StringBuilder();
-		builder.append("Disciplina [fase=");
-		builder.append(fase);
-		builder.append(", idDisciplina=");
+		builder.append("Disciplina [idDisciplina=");
 		builder.append(idDisciplina);
+		builder.append(", nome=");
+		builder.append(nome);
 		builder.append("]");
 		return builder.toString();
 	}
+	
+	
+	
 }

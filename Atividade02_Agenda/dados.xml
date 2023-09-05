@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<dataset>
+                        
+    
+    
+    
+    
+    <record>
+                                        
+        
+        
+        
+        <nome>Mateus</nome>
+                                        
+        
+        
+        
+        <telefone>876886894684</telefone>
+                                        
+        
+        
+        
+        <email>huhhuhc@gmail.com</email>
+                                        
+        
+        
+        
+        <data>13072001</data>
+                                    
+    
+    
+    
+    </record>
+                        
+    
+    
+    
+    
+    <record>
+                                        
+        
+        
+        
+        <nome>João</nome>
+                                        
+        
+        
+        
+        <telefone>908098092</telefone>
+                                        
+        
+        
+        
+        <email>hkjkbksbskdj@hotmail.com</email>
+                                        
+        
+        
+        
+        <data>16082001</data>
+                                    
+    
+    
+    
+    </record>
+                    
+    
+    
+    
+    
+    <contatos>
+                                        
+        
+        
+        
+        <nome>Rafael Colaço</nome>
+                                        
+        
+        
+        
+        <telefone>49 98832-4471</telefone>
+                                        
+        
+        
+        
+        <email>rafael@gmail.com</email>
+                                        
+        
+        
+        
+        <data>24-09-2004</data>
+                                    
+    
+    
+    
+    </contatos>
+                
+    
+    
+    
+    <contatos>
+                                
+        
+        
+        <nome>Rafael Colaço</nome>
+                                
+        
+        
+        <telefone>49 98832-4471</telefone>
+                                
+        
+        
+        <email>rafael@gmail.com</email>
+                                
+        
+        
+        <data>24-09-2004</data>
+                            
+    
+    
+    </contatos>
+            
+    
+    
+    <contatos>
+                        
+        
+        <nome>Rafael Colaço</nome>
+                        
+        
+        <telefone>49 98832-4471</telefone>
+                        
+        
+        <email>rafael@gmail.com</email>
+                        
+        
+        <data>24-09-2004</data>
+                    
+    
+    </contatos>
+        
+    
+    <contatos>
+                
+        <nome>Rafael Colaço</nome>
+                
+        <telefone>49 98832-4471</telefone>
+                
+        <email>rafael@gmail.com</email>
+                
+        <data>24-09-2004</data>
+            
+    </contatos>
+    
+    <contatos>
+        <nome>Tony Stark</nome>
+        <telefone>58 95252-6601</telefone>
+        <email>tnstark@gmail.com</email>
+        <data>29-05-1970</data>
+    </contatos>
+</dataset>

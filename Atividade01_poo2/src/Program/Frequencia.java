@@ -5,11 +5,17 @@ import java.util.List;
 
 public class Frequencia {
 	
+	public Frequencia(int idFrequencia, Professor professor) {
+		this.idFrequencia = idFrequencia;
+		this.professor =  professor;
+	}
+	
+	public Frequencia() {}
+	
 	protected Professor professor;
 	
 	private int idFrequencia;
 	
-	List<Professor> listaProfessores = new ArrayList<Professor>();
 
 	public int getIdFrequencia() {
 		return idFrequencia;

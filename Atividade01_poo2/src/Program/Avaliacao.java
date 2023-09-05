@@ -11,8 +11,19 @@ public class Avaliacao {
 	private float nota;
 	
 	
-	List<Professor> listaProfessores = new ArrayList<Professor>();
+	public Avaliacao() {}
 	
+	
+	public Avaliacao(int idAvaliacao, float nota, Professor professor) {
+		this.idAvaliacao = idAvaliacao;
+		this.nota = nota;
+		this.professor = professor;
+	}
+	
+	public Avaliacao(int idAvaliacao, Professor professor) {
+		this.idAvaliacao = idAvaliacao;
+		this.professor = professor;
+	}
 
 	public int getIdAvaliacao() {
 		return idAvaliacao;

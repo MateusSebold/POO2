@@ -2,6 +2,15 @@ package Program;
 
 public class Professor extends Pessoa {
 	
+	public Professor(int idProfessor,Pessoa pessoa) {
+		super(pessoa.getNome(),pessoa.getSobrenome(),pessoa.getCpf());
+		this.idProfessor = idProfessor;
+	}
+	
+	public Professor() {
+		
+	}
+	
 	
 	private int idProfessor;
 
@@ -12,13 +21,6 @@ public class Professor extends Pessoa {
 	public void setIdProfessor(int idProfessor) {
 		this.idProfessor = idProfessor;
 	}
-
-	@Override
-	public String toString() {
-		StringBuilder builder = new StringBuilder();
-		builder.append("Professor [idProfessor=");
-		builder.append(idProfessor);
-		builder.append("]");
-		return builder.toString();
-	}
+	
+	
 }
